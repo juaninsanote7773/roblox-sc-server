@@ -12,3 +12,12 @@ use this repository
 replace the commands with:
 * install command: npm install
 * start command: npm start
+
+# sender_logic_py
+This should be executed from the secondary computer or VM,
+sends frames and recieves inputs from roblox.
+
+# roblox_logic_lua
+These are the roblox place scripts. change the url in
+ServerScriptService.Script to your render.com server
+link.
