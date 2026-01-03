@@ -21,3 +21,7 @@ sends frames and recieves inputs from roblox.
 These are the roblox place scripts. change the url in
 ServerScriptService.Script to your render.com server
 link.
+
+# IMPORTANT THINGS TO NOTE
+If you're trying to modify the image quality,
+the max payload for render.com servers is 100kb, which is pretty limited.
