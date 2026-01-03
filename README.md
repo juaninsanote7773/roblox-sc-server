@@ -5,9 +5,9 @@ dependencies (python):
 * requests (pip install requests)
 
 # how to setup this server:
-create a render.com server
-fork this repository
-use your repository
+* create a render.com server
+* fork this repository
+* use your repository
 
 replace the commands with:
 * install command: npm install
