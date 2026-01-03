@@ -1,4 +1,4 @@
-# ro-remote-play
+# ro-sc-share
 dependencies (python):
 * Pillow (pip install pillow)
 * pyautogui (pip install pyautogui)
