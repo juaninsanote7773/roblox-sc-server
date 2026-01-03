@@ -7,7 +7,7 @@ dependencies (python):
 # how to setup this server:
 create a render.com server
 fork this repository
-use this repository
+use your repository
 
 replace the commands with:
 * install command: npm install
