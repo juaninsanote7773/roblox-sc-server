@@ -7,7 +7,6 @@ const PORT = process.env.PORT || 3000;
 let img_data = {};
 let last_input = {};
 
-// Middleware to parse JSON and allow cross-origin requests
 app.use(cors());
 app.use(express.json());
 
@@ -47,15 +46,13 @@ app.get("/remote", (req, res) => {
   res.send(img_data);
 });
 
-// Debug route for testing
 app.get("/debug", (req, res) => {
-  console.log("Debug route hit");
-  res.send("Debugging successful");
+  console.log("debug");
+  res.send("debug");
 });
 
-// Root route for checking the server
 app.get("/", (req, res) => {
-  res.send("Hello from Render Express!");
+  res.send("");
 });
 
 // Start the server
